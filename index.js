@@ -1,5 +1,5 @@
 const driver = {}
 
-function updatedriverWithKeyAndValue(obj, key, val) {
-  return Object.assign({}, obj, { [key]: val })
+function updatedriverWithKeyAndValue(driver, key, val) {
+  return Object.assign({}, driver, { [key]: val })
 }
